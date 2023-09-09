@@ -1,0 +1,10 @@
+class Sample{
+    protected String Job ;
+}
+public class ProtectedDemo{
+    public static void main(String []args){
+        Sample s=new Sample();
+        s.Job="manager";
+        System.out.println("Job is "+s.Job);
+    }
+}
